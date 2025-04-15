@@ -111,6 +111,8 @@
 
 import React from 'react';
 import { ArrowRight, Check, Activity, ShieldCheck, BarChart2 } from 'lucide-react';
+import HMS from '../assets/HMS_Dash.png'; 
+
 
 export default function HeroSection() {
   return (
@@ -206,7 +208,7 @@ export default function HeroSection() {
               {/* Image placeholder - replace with your actual image */}
               <div className="relative rounded-2xl shadow-2xl overflow-hidden border border-gray-100">
                 <img 
-                  src="/api/placeholder/600/500" 
+                  src={HMS} 
                   alt="Hospital Management System" 
                   className="w-full h-auto object-cover rounded-2xl"
                 />
