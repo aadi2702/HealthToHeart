@@ -170,7 +170,7 @@ export default function WhyChooseUs() {
                       <div className="flex-shrink-0">
                         <img
                           className="h-12 w-12 rounded-full"
-                          src="/api/placeholder/48/48"
+                          src="https://i.ibb.co/fY0q0Xqz/premium-vector-1726062951888-c5a9a373b394.jpg"
                           alt="Hospital logo"
                         />
                       </div>

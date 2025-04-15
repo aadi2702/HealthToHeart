@@ -64,7 +64,7 @@ export default function Features() {
   ];
 
   return (
-    <section id="features" className="relative py-24 bg-white overflow-hidden">
+    <section id="features" className="relative py-8 bg-white overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute top-0 left-0 -mt-32 -ml-32 hidden lg:block">
         <div className="h-64 w-64 rounded-full bg-teal-50 opacity-70"></div>
@@ -111,14 +111,14 @@ export default function Features() {
         </div>
 
         {/* CTA Section */}
-        <div className="mt-16 text-center">
+        {/* <div className="mt-16 text-center">
           <a
             href="#"
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 shadow-md hover:shadow-lg transition-all duration-300"
           >
             Explore All Features <ArrowRight className="ml-2 h-5 w-5" />
           </a>
-        </div>
+        </div> */}
 
         {/* Testimonial or Highlight */}
         <div className="mt-24 bg-gradient-to-br from-teal-50 to-white rounded-2xl p-8 shadow-sm border border-teal-100">
@@ -203,7 +203,7 @@ export default function Features() {
                   <div className="flex items-center mb-6">
                     <img
                       className="h-12 w-12 rounded-full"
-                      src="/api/placeholder/48/48"
+                      src="https://i.ibb.co/qHTJzr8/Sarah-Johnson1.jpg"
                       alt="User avatar"
                     />
                     <div className="ml-4">

@@ -31,11 +31,11 @@ export default function HeroSection() {
             </p>
             
             <div className="mt-10 flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0">
-              <a href="#" className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 shadow-lg hover:shadow-xl transition-all duration-300">
+              <a href="#contact" className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 shadow-lg hover:shadow-xl transition-all duration-300">
                 Get Started Free
               </a>
               <a href="#" className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-teal-700 bg-teal-50 hover:bg-teal-100 transition-all duration-300">
-                Schedule Demo <ArrowRight className="ml-2 h-5 w-5" />
+                See how it works <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </div>
             
