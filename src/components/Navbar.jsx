@@ -122,20 +122,20 @@ export default function Navbar() {
               Pricing
             </a>
             <a
-              href="#"
+              href="#testimonials"
               className="block px-4 py-2 text-base font-medium text-gray-800 hover:text-teal-600 hover:bg-teal-50 rounded-lg"
             >
-              About
+              Testimonials
             </a>
             <div className="pt-2 space-y-2">
-              <a
+              {/* <a
                 href="#"
                 className="block w-full px-4 py-2 text-center font-medium text-teal-600 hover:text-teal-700 transition-colors"
               >
                 Log in
-              </a>
+              </a> */}
               <a
-                href="#"
+                href="#contact"
                 className="block w-full px-4 py-2 text-center font-medium text-white bg-gradient-to-r from-teal-500 to-teal-600 rounded-lg hover:from-teal-600 hover:to-teal-700 transition-colors shadow-md"
               >
                 Get Started
